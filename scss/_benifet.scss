@@ -1,0 +1,29 @@
+ // ben-section"> container">ben-wraper"> ben-hed"> bens > li 
+
+
+.ben-section{
+    background-color: $clr-green ;
+    background-image: url("../assets/bg-bens.png") ;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: right bottom; 
+}
+.ben-wraper{
+    margin: 30px 0 ;
+}
+.bens{
+    margin: 50px 0  ;
+    padding: 0 ;
+    li{
+        line-height: 2rem ;
+        counter-increment: i ;
+        margin-left: 10px ;
+    }
+    li::before{
+        content: counter(i) '.' ;
+        color: $clr-red ;
+        margin-right: 20px ;
+    }
+    
+}
+

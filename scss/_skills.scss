@@ -1,0 +1,29 @@
+.skills-section{
+    padding: 100px 16px ;
+    
+}
+.skill-text{
+    vertical-align: top ;
+    padding-top: 40px ;
+    display: inline-block ;
+    width: 49% ;
+}
+.skills-prog{
+    display: inline-block ;
+    width: 40% ;
+    max-width: 400px ;
+}
+.skl-hed{
+    padding: 15px 0 0 0 ;
+    line-height: 5px ;
+}
+.progress-bar{
+    height: 9px ;
+    background-color: $clr-lightgray ;
+}
+.progress{
+    background-color: $clr-green ;
+    height: 100% ;
+    width: 0 ;
+    transition: width 1s ;
+}

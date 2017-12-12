@@ -1,0 +1,35 @@
+.contact-section{
+    background-color: $clr-lightgray  ;
+    text-align: center ;
+    padding: 50px 0 ;
+}
+.contact-text{
+    color: white ;
+}
+.btn-contact{
+    border: 2px solid $clr-red ;
+    margin: 50px 0;
+    color: $clr-red;
+}
+.btn-contact:hover{
+    background-color: $clr-red; 
+    color: $clr-white ;
+}
+
+.social-wraper{
+    
+    background-color: $clr-gray ;
+    text-align: center ;
+}
+.social{
+    display: inline-block;
+    font-size: 1.4rem ;
+    margin: 7px 16px ;
+    font-weight: 700 ;
+    letter-spacing: 2px ;
+    color: $clr-social  ;
+}
+.social:hover{
+    color: $clr-socialhover ;
+}
+

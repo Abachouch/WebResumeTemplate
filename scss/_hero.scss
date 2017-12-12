@@ -1,0 +1,47 @@
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  background-color: #3584A7 ;
+  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0 ;
+}
+/*hero*/
+.hero-container{
+  position: absolute ;
+  z-index: 2 ;
+  top: 20% ;
+  right: 0 ; 
+  left: 0 ;
+}
+.title{
+  color: $clr-white ; 
+  font-size: 1.2rem ;
+  letter-spacing: 10px;
+}
+.hdescription{
+  margin: 20px 0;
+  color: $clr-red ;
+  font-size: 5rem ;
+  font-weight: 300 ;
+  line-height: 5rem ;
+}
+.des-chang{
+  display: block ;
+}
+.herobtn-container{
+  text-align:  center ;
+  padding: 50px 0 ;
+}
+.hero-button{
+  color: $clr-white ;
+  background-color: $clr-red;
+}
+.hero-button:hover{
+  background-color: #DA1656 ;
+  box-shadow: 0 4px 1px -2px rgba(0, 0, 0, 0.20) ;
+}
+

@@ -1,0 +1,97 @@
+.hello-container{
+    background-color: $clr-gray ;
+    color: white ;
+}
+.hello{
+    font-size: 2rem ;
+    margin : 3rem 0 0 0 ;
+}
+.hello-desc{
+    margin: 2rem 0 4rem 0;
+}
+// container > serv-wraper > serv > srv-ico | serv | serv-desc .
+.serv-wraper{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    max-width: 100% ;
+    text-align: center ;
+}
+
+.serv{
+    vertical-align: top ;
+    margin: 70px 10px ;
+    width: 260px ;
+    display: inline-block ;
+    border : 1px solid $clr-green ;
+    min-height: 500px;
+}
+.serv-header{
+    background-color: $clr-green ;
+    margin: 0 ;
+    padding: 20px 16px ;
+}
+.serv-ico{
+    height: 48px; 
+    display: inline-block ;
+}
+.serv-hed{
+    font-size: 1.2rem ;
+    color: white;
+}
+
+.tri-separator{
+    fill: $clr-green ;
+    svg{
+        height: 50px ;
+        width: 100% ;
+    }
+}
+.serv-desc{
+    margin-top: 1.6rem ; 
+    font-size: .9rem ;
+    text-align: left ; 
+    padding: 10px ;
+}
+
+@media screen and (max-width : $siz-laptop){
+    .serv-wraper{
+        max-width: 700px ;
+        margin:0 auto ;
+    }
+    .serv{
+        margin: 70px 0 ;
+        //
+        width: 100% ;
+        display: block ;
+        
+        border: none;
+        min-height: initial ;
+    }
+    .serv-header{
+        background-color: transparent ;
+        padding: 0 ;
+    }
+    .serv-ico{
+        display: none ;
+    }
+    
+    .serv-hed{
+        font-size: 1.2rem ;
+        color: $clr-red ;
+    }
+    .serv-hed::after{
+        content: '' ;
+        display: block ;
+        width: 40px ;
+        height: 3px ;
+        background-color: $clr-red;
+        margin: 10px auto ;
+    }
+    .tri-separator{
+        display: none ;
+    }
+    .serv-desc{
+        margin-top: 1.6rem ; 
+        text-align: center ;   
+    }
+}
