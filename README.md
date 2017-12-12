@@ -1,3 +1,5 @@
 # WebResumeTemplate
 HTML5 AND SCSS Web Resume Template
-<div style="text-align:center"><img src ="Artboard 2.png" /></div>
+<a href="https://abachouch.github.io/WebResumeTemplate/" >live demo</a>
+##screenshot
+<div style="text-align:center"><img src ="screenshots/screenshot-full.png" /></div>
